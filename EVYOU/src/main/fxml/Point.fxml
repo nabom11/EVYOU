@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #c8ead9;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.PointController">
+   <children>
+      <TableView fx:id="tableView" layoutX="7.0" layoutY="78.0" prefHeight="515.0" prefWidth="786.0">
+        <columns>
+          <TableColumn fx:id="tc1" prefWidth="262.0" text="충전소명" />
+          <TableColumn fx:id="tc2" prefWidth="262.0" text="충전날짜" />
+          <TableColumn fx:id="tc3" prefWidth="262.0" text="적립 포인트" />
+        </columns>
+      </TableView>
+      <Label fx:id="totalPoint" alignment="CENTER" layoutX="7.0" layoutY="23.0" prefHeight="35.0" prefWidth="786.0" text="Label">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

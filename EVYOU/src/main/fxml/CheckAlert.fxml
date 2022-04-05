@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.CheckAlertController">
+   <children>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="166.0" layoutY="14.0">
+         <image>
+            <Image url="@../images/alert.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" alignment="CENTER" layoutX="16.0" layoutY="112.0" prefHeight="18.0" prefWidth="381.0" text="로그인을 해주세요.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="alertBtn" layoutX="162.0" layoutY="147.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" stylesheets="@../css/style.css" text="확인" />
+   </children>
+</AnchorPane>

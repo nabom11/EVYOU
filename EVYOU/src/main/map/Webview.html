@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>전기와의 전쟁</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY3NKyJWkek9u_u-3knZhOtWq_pVeIpXg&region=kr"></script>
+    <style>#mapcanvas { height: 550px; width: 100%}</style>
+	
+
+
+</head>
+<body>
+<!-- <h1>전기와의 전쟁</h1> -->
+<br>
+<div id="mapcanvas">
+
+    <script type="text/javascript">
+
+        document.map = new google.maps.Map(document.getElementById("mapcanvas"));
+        var latlng = new google.maps.LatLng(36.338553631280085, 127.3925019253642);
+        var Options = {
+            zoom: 15,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("mapcanvas"), Options);
+        //var carMarkerImage = new google.maps.MarkerImage('resources/images/car.png');
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(36.338553631280085, 127.3925019253642),
+            map: map,
+            draggable: false,
+//icon: carMarkerImage,
+            title: "",
+            autoPan: true
+
+        });
+        var infobulle = new google.maps.InfoWindow({
+            content: "충전소 위치"
+        });
+        google.maps.event.addListener(marker, 'mouseover', function() {
+            infobulle.open(map, marker);
+        });
+
+
+        	document.goToLocation = function(x, y) {
+            alert("goToLocation, x: " + x +", y:" + y);
+            var latLng = new google.maps.LatLng(x, y);
+            marker.setPosition(latLng);
+            map.setCenter(latLng);
+        }
+
+
+    </script>
+
+
+</div>
+</body>
+</html>

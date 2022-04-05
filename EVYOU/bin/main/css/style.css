@@ -1,0 +1,30 @@
+.welcome {-fx-font-family: 'Gmarket Sans TTF Medium';}
+.button {-fx-font-family: 'Gmarket Sans TTF Bold'; -fx-font-size:24px;}
+.button:hover {-fx-background-color:#b3e3cb !important; -fx-cursor:pointer;}
+#active {-fx-background-color:#b3e3cb !important; }
+#loginText {-fx-font-family: 'Gmarket Sans TTF Medium';}	/* ȸ������ ���� */
+#login_bt {-fx-font-size:17px;-fx-background-color: #f9914a !important;} /* �α��� ��ư */
+#joinText {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:17px;}
+#joinBtn {-fx-font-size:17px;-fx-background-color: rgba(0,0,0,0) !important;} /* ȸ������ ��ư */
+#bt1 {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#f9914a !important; -fx-color:#fff !important;}	/* �˻� ��ư */
+#favBtn {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#f9914a !important;}	/* ���ã�� ��ư */
+#payBtn {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#f9914a !important;}	/* ���� ��ư */
+#payon {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#f9914a !important;}
+#chgerTypeBox {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#fff !important; -fx-border-color:#b3e3cb;} /* �޺��ڽ� */
+TextField {-fx-font-family: 'Gmarket Sans TTF Medium';}
+PasswordField {-fx-font-family: 'Gmarket Sans TTF Medium';}
+Label {-fx-font-family: 'Gmarket Sans TTF Medium';}
+TableView {-fx-font-family: 'Gmarket Sans TTF Medium';}
+Text {-fx-font-family: 'Gmarket Sans TTF Medium';}
+#input_id {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:15px;}
+#input_pwd {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:15px;}
+.idWelcome {-fx-font-family: 'Gmarket Sans TTF Medium';}
+#commit {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#f9914a !important;}
+#userId {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px;}
+#chgerType {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#fff !important; -fx-border-color:#0c9f00;}
+#carType {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px;}
+#totalPoint {-fx-font-weight:bold;}
+#fontGM {-fx-font-family: 'Gmarket Sans TTF Medium';}
+#alertBtn {-fx-font-family: 'Gmarket Sans TTF Medium'; -fx-font-size:14px; -fx-background-color:#f9914a !important; -fx-text-fill: white;}
+#checkId {-fx-font-size:12px;}
+#joinSubmit {-fx-font-size:12px;}
